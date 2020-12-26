@@ -49,5 +49,5 @@ CREATE TABLE `tweet` (
   `clean_text`	text,
   `text_sentiment_polarity`	double,
   `text_sentiment_subjectivity` double,
-  `created_date` datetime DEFAULT CURRENT_TIMESTAMP
+  `created_date` datetime DEFAULT NOW()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
