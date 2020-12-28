@@ -47,7 +47,6 @@ CREATE TABLE `tweet` (
   `feeds_video` text,
   `feeds_image` text,
   `clean_text`	text,
-  `tokenized_text` text,
   `text_sentiment_polarity`	double,
   `text_sentiment_subjectivity` double,
   `created_date` datetime DEFAULT NOW()
